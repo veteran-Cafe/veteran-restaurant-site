@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veteran Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f6f1;
+      color: #333;
+    }
+    header {
+      background-color: #4a2e1f;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo h2 {
+      margin-left: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d4af37;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('https://images.unsplash.com/photo-1600891963939-a2a7f6d3bda3') center/cover no-repeat;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+    .cta {
+      margin-top: 2rem;
+      background-color: #d4af37;
+      color: #4a2e1f;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .cta:hover {
+      background-color: #b38e2c;
+    }
+    footer {
+      background-color: #4a2e1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>Veteran Restaurant</h2>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Veteran Restaurant</h1>
+    <p>Delicious African dishes served with style and soul</p>
+    <button class="cta" onclick="location.href='menu.html'">Explore Our Menu</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Veteran Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
